@@ -15,6 +15,6 @@ public class TestController {
     }
     @GetMapping("/hello2")
     public String testTwos2(){
-        return "Hello methos d";
+        return "Hello method two is changed ";
     }
 }
