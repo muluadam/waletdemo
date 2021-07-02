@@ -13,4 +13,8 @@ public class TestController {
     public String testTwos(){
         return "Hello from Github";
     }
+    @GetMapping("/hello2")
+    public String testTwos2(){
+        return "Hello from Github2";
+    }
 }
