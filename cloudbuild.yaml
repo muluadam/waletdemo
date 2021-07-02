@@ -7,4 +7,4 @@ steps:
     args: ["package", "-Dmaven.test.skip=true","appengine:deploy"]
 #  - name: gcr.io/cloud-builders/docker
 #    args: ["build", "-t", "gcr.io/$PROJECT_ID/inventorymanagement", "--build-arg=JAR_FILE=target/inventorymanagement-1.0.0.0.jar", "."]
-#images: ["gcr.io/$PROJECT_ID/inventorymanagement"]
+#images: ["gcr.io/$PROJECT_ID/inventorymanagement"] #
