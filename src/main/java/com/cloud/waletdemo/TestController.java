@@ -9,4 +9,8 @@ public class TestController {
     public String testTwo(){
         return "Test Two after push  three";
     }
+    @GetMapping("/hello")
+    public String testTwos(){
+        return "Hello from Github";
+    }
 }
