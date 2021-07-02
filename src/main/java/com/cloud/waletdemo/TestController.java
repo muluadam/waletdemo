@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test2")
     public String testTwo(){
-        return "Test Two after push  three";
+        return "Test Two after push  three /from to from github ";
     }
     @GetMapping("/hello")
     public String testTwos(){
